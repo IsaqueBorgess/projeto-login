@@ -30,12 +30,13 @@ section#login{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    overflow: hidden;
 
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    overflow: hidden;
+    
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
 
     transition: width .3s, heigth .3s;
@@ -45,7 +46,7 @@ section#login{
 section#login > div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/pexels-feitenhenrique-15248314.jpg) no-repeat;
-    background-position:  left bottom;
+    background-position:  center;
     background-size: cover;
     height: 200px;
 }
@@ -54,4 +55,9 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
 }
